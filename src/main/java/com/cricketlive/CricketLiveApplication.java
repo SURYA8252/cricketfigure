@@ -29,6 +29,7 @@ public class CricketLiveApplication implements CommandLineRunner{
 	private RoleRepository roleRepository;
 	public static void main(String[] args) {
 		SpringApplication.run(CricketLiveApplication.class, args);
+		System.out.println("Hello java");
 	}
 	@Bean
     public ModelMapper modelMapper() {
